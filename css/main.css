@@ -1,14 +1,10 @@
-.container {
-    position: relative;  
+.container , .container2 {
+    position: absolute;  
 }
 .image {
     width: 300px;
     height: 600px;
-    display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 @font-face {
     font-family: HWTArtz;
@@ -17,7 +13,7 @@
 .text {
     position: absolute;
     top :70% ;
-    left: 40%;
+    left: 20%;
     transform: translate(-50%, -50%);
     font-family: HWTArtz;
     color: #ffff;
@@ -34,13 +30,10 @@
     font-family: Gotham;
     src: url(GothamRounded-Medium.woff);
 }
-.container2{
-    position: relative;
-}
 .text2 , .text3 {
     position: absolute;
     top :5% ;
-    left: 40%;
+    left: 25%;
     transform: translate(-50%, -50%);
     font-family: HWTArtz;
     color:#ffff;
@@ -50,29 +43,20 @@
     text-align: center;
     opacity: 0;
     transform: scale(0, 0);
+}
 
-}
-.images {
-    width: 300px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 .product{
     width: 100px;
     height: 320px;
     position: absolute;
     top: 20%;
-    left: 38%;
+    left: 25%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.cta{
+button{
     font-family: Gotham;
     font-size:15px;
     padding: 15px;
@@ -81,7 +65,7 @@
     color: #ffff;
     position: absolute;
     bottom: 5%;
-    left: 40%;
+    left: 25%;
     margin-left: auto;
     margin-right: auto;
 }
